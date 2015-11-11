@@ -1,6 +1,3 @@
-/**
- * 
- */
 package org.core.common.enums;
 
 /**
@@ -10,7 +7,8 @@ package org.core.common.enums;
 public enum CookiesName {
 	SSID("SSID"),
 	OAuthUserId("OAUTHUSERID"),
-	AccessToken("ACCESSTOKEN");
+	AccessToken("ACCESSTOKEN"),
+	AppId("APPID");
 	
 	private String value;
 	
