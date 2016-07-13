@@ -8,7 +8,8 @@ public enum CookiesName {
 	SSID("SSID"),
 	OAuthUserId("OAUTHUSERID"),
 	AccessToken("ACCESSTOKEN"),
-	AppId("APPID");
+	AppId("APPID"),
+	SSOCookie("SSOCOOKIE");
 	
 	private String value;
 	
