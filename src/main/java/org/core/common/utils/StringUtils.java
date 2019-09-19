@@ -5,10 +5,6 @@ package org.core.common.utils;
 
 import org.apache.commons.codec.binary.Base64;
 
-/**
- * @author piotrek
- *
- */
 public class StringUtils {
 	public static String encodeBase64(final String text) {
 		return new String(Base64.encodeBase64(text.getBytes()));

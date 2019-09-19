@@ -1,13 +1,16 @@
 /**
- * 
+ *
  */
 package org.api.model;
 
-/**
- * @author piotrek
- */
-public class UserSessionDataResponse {
-	public String userId;
-	public int tokenLifeTime;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
+@Builder
+public class UserSessionDataResponse {
+    private String userId;
+    private int tokenLifeTime;
 }
